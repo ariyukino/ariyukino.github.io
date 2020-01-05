@@ -1,0 +1,428 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+/* Header */
+header{
+    background-color: grey;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    filter: none;
+}
+
+.logo1{
+    width: 80px;
+    text-decoration: none;
+    margin: 9px;
+    margin-left: 20px;
+    float: left;
+}
+
+.navbar{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 18px 0px;
+}
+  
+.navbar li{
+    display: inline-block;
+}
+  
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    border: 1px solid transparent;
+}
+  
+.navbar a:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.3s;
+}
+  
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Section */
+    /* Navigasi Home */
+.home{
+    background-image: url(gambar/dark-grey-terrazzo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 300px;
+}
+
+.text{
+    padding: 120px;
+    text-align: center;color: white;
+}
+
+
+    /* Navigasi Winner */
+.winner{
+    background: url(gambar/messi\ back.jpg);
+    margin-top: 30px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;  
+}
+
+.winner h1{
+    margin-top: 20px;
+    color:wheat;
+    text-align: right;
+    font-size: 67px;
+    font-style: italic;
+}
+
+.winner p{
+    font-size: 40px;
+    color:white;
+    text-align: right;
+    margin-top: -50px;
+}
+
+.box{
+    
+    max-width: 450px;
+    padding: 50px;
+    background: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.5);
+    float: right;
+    margin-top: 0px;
+    right: 80%;
+}
+
+.box h2{
+    margin: 0 0 20px;
+    font-size: 28px;
+    color: wheat;
+}
+
+.box td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+    /* Navigasi List Winner */
+.ballon{
+    background: url(gambar/messi.jpg);
+    margin-top: 30px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+}
+
+.ballon h1{
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+.ballon hr{
+    height: 2px;
+}
+
+.galeri1{
+    margin: 60px 40px 50px 20px ;
+    border:  1px solid black;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+.galeri2{
+    margin: 200px 40px 50px 20px ;
+    border:  1px solid black;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+.galeri3{
+    margin-top: 60px ;
+    margin-left: 35%;
+    border:  1px solid black;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+.galeri1 img{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    outline: aqua;
+    outline-width: 10px;
+    border-color: aqua;
+    border: 3px solid aqua;
+}
+
+.galeri2 img{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    outline: aqua;
+    outline-width: 10px;
+    border-color: aqua;
+    border: 3px solid aqua;
+}
+
+.galeri3 img{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    outline: aqua;
+    outline-width: 10px;
+    border-color: aqua;
+    border: 3px solid aqua;
+}
+
+.desc{
+    margin-left:7px ;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.list-ballon{
+    background: url(gambar/ballondor.jpg);
+    margin-top: 30px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 55px;
+}
+
+
+    /* Navigasi Top 10 Ranking */
+.about{
+    background: url(gambar/fifpro.jpg);
+    margin-top: 30px;
+    height: 100vh;
+    background-size: initial; 
+    padding: 55px;
+}
+.about h1{
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+.about hr{
+    height: 2px;
+}
+
+.tablemenu{
+    border-collapse: collapse;
+    font-family: 'Pacifico', cursive;
+    widows: 100%;
+    margin-top: 60px;
+}
+.tablemenu td,th{
+    padding-left: 10%;
+    border: 1px solid rgb(214, 213, 213);
+    padding: 8px 100px
+}
+
+.tablemenu tr{
+    background-color: #f2f2f2;
+}
+
+.tablemenu tr:hover{
+    background-color: #ddd;
+}
+.tablemenu th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.tablebody{
+    display: table-row-group;
+}
+
+
+    /* Navigasi Contact */
+.contact{
+    background: url(gambar/reus.jpg);
+    margin-top: 30px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 55px;
+}
+
+.contact h1{
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+.contact hr{
+    height: 2px;
+}
+
+.box1{
+    max-width: 1000px;
+    padding: 50px;
+    background: aquamarine;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.5);
+    background-position: center;
+    float: none;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid salmon;
+}
+
+
+/* Footer */
+footer{
+    margin-top: 30px;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(gambar/dark-grey-terrazzo.png);
+
+}
+
+.sosial{
+    display: block;
+    padding: 0px;
+    text-align: center;
+    color: blanchedalmond;
+    border: none;
+    font-size: 12px;
+}
+
+.fbhome{
+    float: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+    width: 25px;
+}
+
+.ythome{
+    float: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+    width: 25px;
+}
+
+.twithome{
+    float: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+    width: 25px;
+}
+
+.ighome{
+    float: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+    width: 25px;
+}
+
+.navfoot{
+    list-style-type: none;
+    float: none;
+    margin: 0;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+
+}
+
+.navfoot li{
+    display: inline-block;
+}
+  
+.navfoot li a{
+    text-decoration: none;
+    color: orange;
+    padding: 1px 10px;
+    border: 1px solid transparent;
+}
+  
+.navfoot a:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.3s;
+}
+  
+.garis{
+    border-top: 2px solid white;
+    width: 70%;
+    list-style-type: none;
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+
+/* Copyright */
+.copyright{
+    float: none;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 52.5%;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0px;
+}
